@@ -10,7 +10,7 @@ body {
   width: 100px;
   height: 100px;
   background-color: gray;
-  margin: 0 10px 10px 0; }
+  margin: 0 30px 60px 0; }
 
 .welcome {
   background-color: rgba(255, 255, 255, 0.8); }
@@ -19,11 +19,11 @@ body {
 h1, h2, h3, h4, h5, h6 {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
-  font-family: "Abril Fatface", cursive;
+  font-family: "Prata", serif;
   color: #3e4249; }
 
 h1 {
-  font-size: 3em; }
+  font-size: 3.5em; }
 
 h1, h2 {
   margin: 0 0 40px; }
@@ -91,7 +91,7 @@ button, input, .btn, a.btn {
   outline: none; }
 
 .btn-success {
-  background: #042f2f;
+  background: #bb4444;
   border: none; }
 
 .btn-success:hover {

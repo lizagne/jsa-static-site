@@ -11,12 +11,13 @@ $transparent: 	rgba(255,255,255, 0.8);
 //fonts:
 $cursive-font: 'Abril Fatface', cursive;
 $body-font: 'Cabin', sans-serif;
+$header-font: 'Cinzel', serif;
+$header-font-alt:'Prata', serif;
 $font-space: 2px;
 $leading-body: 25px;
 $leading-header: 35px;
 
 // GENERAL
-
 body {
 	margin-top: 50px;
 	font-family: $body-font;
@@ -35,8 +36,11 @@ body {
 	width: 100px; 
 	height: 100px;
 	background-color: gray;
-	margin: 0 10px 10px 0;
+	margin: 0 30px 60px 0;
+
 }
+
+
 
 .welcome {
 	background-color: $transparent;
@@ -48,12 +52,12 @@ body {
 h1,h2,h3,h4,h5,h6 {
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizelegibility;
-	font-family: $cursive-font;
+	font-family: $header-font-alt;
 	color: $blueGrey;
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 3.5em;
 }
 
 h1,h2 {
@@ -142,7 +146,7 @@ button, input, .btn, a.btn {
 }
 
 .btn-success {
-	background: $green;
+	background: $red;
 	border: none;
 }
 
