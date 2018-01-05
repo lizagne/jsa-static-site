@@ -31,21 +31,43 @@ body {
 	border-radius: 50%;
 }
 
-//masonry
-.grid-item { 
-	width: 100px; 
-	height: 100px;
-	background-color: gray;
-	margin: 0 30px 60px 0;
+#our-artists {
+	text-align: center;
+	width: 100%;
+}
 
+.artists-wrapper {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.artist {
+	min-width: 150px;
+	justify-content: center;
+	flex-direction: column;
+}
+
+img {
+	width: 100px;
 }
 
 
+
+
+// 	div.artist { 
+// 		width: 100px; 
+// 		height: 100px;
+// 		background-color: gray;
+// 		margin: 0 100px 80px 0;
+// 	}
+// }
 
 .welcome {
 	background-color: $transparent;
 }
-
 
 /* ==== GLOBAL ==== */
 
@@ -57,7 +79,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 3.5em;
+	font-size: 4.5em;
 }
 
 h1,h2 {
@@ -75,6 +97,12 @@ h4 {
 p.lead {
 	font-weight: normal;
 	color: $blueGrey;
+}
+
+p.lead-artists {
+	font-weight: normal;
+	color: $blueGrey;
+	margin-bottom: 25px;
 }
 
 p.lead1 {

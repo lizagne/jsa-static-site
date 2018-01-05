@@ -6,11 +6,24 @@ body {
 .logo {
   border-radius: 50%; }
 
-.grid-item {
-  width: 100px;
-  height: 100px;
-  background-color: gray;
-  margin: 0 30px 60px 0; }
+#our-artists {
+  text-align: center;
+  width: 100%; }
+
+.artists-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%; }
+
+.artist {
+  min-width: 150px;
+  justify-content: center;
+  flex-direction: column; }
+
+img {
+  width: 100px; }
 
 .welcome {
   background-color: rgba(255, 255, 255, 0.8); }
@@ -23,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #3e4249; }
 
 h1 {
-  font-size: 3.5em; }
+  font-size: 4.5em; }
 
 h1, h2 {
   margin: 0 0 40px; }
@@ -37,6 +50,11 @@ h4 {
 p.lead {
   font-weight: normal;
   color: #3e4249; }
+
+p.lead-artists {
+  font-weight: normal;
+  color: #3e4249;
+  margin-bottom: 25px; }
 
 p.lead1 {
   font-weight: normal;
