@@ -50,9 +50,9 @@ body {
 	flex-direction: column;
 }
 
-img {
-	width: 100px;
-}
+// img {
+// 	width: 100px;
+// }
 
 
 
@@ -79,7 +79,11 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-	font-size: 4.5em;
+	font-size: 4.0em;
+}
+
+h2{
+	font-size: 3em;
 }
 
 h1,h2 {
@@ -103,6 +107,8 @@ p.lead-artists {
 	font-weight: normal;
 	color: $blueGrey;
 	margin-bottom: 25px;
+	font-size: 1.2em;
+	// width: 60%;
 }
 
 p.lead1 {
@@ -163,6 +169,39 @@ button, input, .btn, a.btn {
 	color: $white;
 }
 
+
+.grid {
+  max-width: 2000px;
+  display: flex;
+  justify-content: center;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 260px;
+  height: 220px;
+  background: $lightBlueGrey;
+  border: 2px solid #333;
+
+  // border-color: hsla(0, 0%, 0%, 0.5);
+  // border-radius: 5px;
+}
+
+.grid-item--width2 { width: 420px; }
+.grid-item--width3 { width: 580px; }
+.grid-item--width4 { width: 640px; }
+
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
 
 
 .btn {
@@ -322,27 +361,31 @@ form textarea {
 
 /* ==== HERO ==== */
 
-#hero {
-	background: url('../img/hero-bg.jpg') no-repeat;
-	min-height: 950px;
-	// position: relative;
-	// // display: table;
+// #hero {
+// 	// background: url('../img/hero-bg.jpg') no-repeat;
+// 	// min-height: 950px;
+// 	// // position: relative;
+// 	// // // display: table;
+// 	// width: 100%;
+// 	// padding: 40px 0;
+// 	// color: white;
+// 	// -webkit-font-smoothing: antialiased;
+// 	// text-rendering: optimizelegibility;
+// }
+
+// #hero article { 
+//   width: 100%;
+//   text-align: center;
+//   display: table-cell;
+//   vertical-align: middle;
+// }
+
+// #hero .hero-text {
+// 	margin-top: 30px;
+// }
+
+#hero .container {
 	width: 100%;
-	padding: 40px 0;
-	color: white;
-	-webkit-font-smoothing: antialiased;
-	text-rendering: optimizelegibility;
-}
-
-#hero article { 
-  width: 100%;
-  text-align: center;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-#hero .hero-text {
-	margin-top: 30px;
 }
 
 
@@ -354,6 +397,10 @@ form textarea {
 
 section {
 	padding: 80px 0;
+}
+
+section#hero {
+	padding: 0px;
 }
 
 .section-header {
@@ -483,8 +530,9 @@ section.main-content {
 
 #shop {
 	text-align: center;
-	background: url('../img/shop-bg.jpg') no-repeat;
+	// background: url('../img/shop-bg.jpg') no-repeat;
 	// background-size: cover;
+	background-color: $lightBlueGrey;
 	color: white;
 	padding: 100px 0;
 
