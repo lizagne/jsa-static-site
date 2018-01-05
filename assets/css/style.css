@@ -138,6 +138,9 @@ button, input, .btn, a.btn {
 .grid-item--height4 {
   height: 360px; }
 
+p.header {
+  padding: 20px; }
+
 .btn {
   font-weight: bold; }
 
