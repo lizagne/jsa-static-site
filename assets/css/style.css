@@ -7,15 +7,13 @@ body {
   border-radius: 50%; }
 
 #our-artists {
-  text-align: center;
-  width: 100%; }
+  text-align: center; }
 
 .artists-wrapper {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%; }
+  flex-wrap: wrap; }
 
 .artist {
   min-width: 150px;
@@ -104,7 +102,6 @@ button, input, .btn, a.btn {
   color: #fff; }
 
 .grid {
-  max-width: 2000px;
   display: flex;
   justify-content: center; }
 
@@ -116,28 +113,28 @@ button, input, .btn, a.btn {
 
 /* ---- grid-item ---- */
 .grid-item {
-  width: 260px;
-  height: 220px;
+  width: 14.25em;
+  height: 12.75em;
   background: #656b77;
-  border: 2px solid #333; }
+  border: 0.19em solid #fff; }
 
 .grid-item--width2 {
-  width: 420px; }
+  width: 24.25em; }
 
 .grid-item--width3 {
-  width: 580px; }
+  width: 46.75em; }
 
 .grid-item--width4 {
-  width: 640px; }
+  width: 38.00em; }
 
 .grid-item--height2 {
-  height: 200px; }
+  height: 16.75em; }
 
 .grid-item--height3 {
-  height: 260px; }
+  height: 26.75em; }
 
 .grid-item--height4 {
-  height: 360px; }
+  height: 20.50em; }
 
 .btn {
   font-weight: bold; }
