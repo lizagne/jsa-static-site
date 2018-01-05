@@ -22,7 +22,6 @@ body {
 	margin-top: 50px;
 	font-family: $body-font;
 	font-size: 16px;
-	// background: url('../img/tile.jpg') top left repeat;
 }
 
 .logo {
@@ -54,9 +53,6 @@ body {
 // 	width: 100px;
 // }
 
-
-
-
 // 	div.artist { 
 // 		width: 100px; 
 // 		height: 100px;
@@ -84,6 +80,7 @@ h1 {
 
 h2{
 	font-size: 3em;
+	line-height: 1.5;
 }
 
 h1,h2 {
@@ -171,7 +168,6 @@ button, input, .btn, a.btn {
 
 
 .grid {
-  // max-width: 2000px;
   display: flex;
   justify-content: center;
 }
@@ -186,22 +182,22 @@ button, input, .btn, a.btn {
 /* ---- grid-item ---- */
 
 .grid-item {
-  width: 14.25em;
-  height: 12.75em;
-  background: $lightBlueGrey;
-  border: 0.19em solid $white;
-
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: $white;
+  border: 2px solid $white;
   // border-color: hsla(0, 0%, 0%, 0.5);
   // border-radius: 5px;
 }
 
-.grid-item--width2 { width: 24.25em; }
-.grid-item--width3 { width: 46.75em; }
-.grid-item--width4 { width: 38.00em; }
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
 
-.grid-item--height2 { height: 16.75em; }
-.grid-item--height3 { height: 26.75em; }
-.grid-item--height4 { height: 20.50em; }
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
 
 
 .btn {
@@ -386,6 +382,10 @@ form textarea {
 
 #hero .container {
 	width: 100%;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: $white;
 }
 
 

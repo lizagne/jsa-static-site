@@ -34,7 +34,8 @@ h1 {
   font-size: 4.0em; }
 
 h2 {
-  font-size: 3em; }
+  font-size: 3em;
+  line-height: 1.5; }
 
 h1, h2 {
   margin: 0 0 40px; }
@@ -113,28 +114,29 @@ button, input, .btn, a.btn {
 
 /* ---- grid-item ---- */
 .grid-item {
-  width: 14.25em;
-  height: 12.75em;
-  background: #656b77;
-  border: 0.19em solid #fff; }
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: #fff;
+  border: 2px solid #fff; }
 
 .grid-item--width2 {
-  width: 24.25em; }
+  width: 320px; }
 
 .grid-item--width3 {
-  width: 46.75em; }
+  width: 480px; }
 
 .grid-item--width4 {
-  width: 38.00em; }
+  width: 640px; }
 
 .grid-item--height2 {
-  height: 16.75em; }
+  height: 200px; }
 
 .grid-item--height3 {
-  height: 26.75em; }
+  height: 260px; }
 
 .grid-item--height4 {
-  height: 20.50em; }
+  height: 360px; }
 
 .btn {
   font-weight: bold; }
@@ -278,6 +280,9 @@ form textarea {
 /* ==== HERO ==== */
 #hero .container {
   width: 100%; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
 
 /* ==== LAYOUT ==== */
 .row + .row {
