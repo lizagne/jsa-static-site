@@ -24,3 +24,4 @@ Things still TODO:
 ## Screenshot of JSA website - WIP
 
 ![Demo](https://user-images.githubusercontent.com/26763021/34621820-8d6a7dda-f242-11e7-90a5-e622fadedf1c.png)
+![Demo](https://user-images.githubusercontent.com/26763021/34641015-643b0368-f2f5-11e7-92b6-98158c5bb6ba.png)
